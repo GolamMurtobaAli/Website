@@ -1,0 +1,91 @@
+h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+/* Parent Property of html  */
+body{
+    /* background-image: url('Background_image.jpg'); */
+    background-color: bisque;
+    position: absolute;
+    background-repeat: no-repeat;
+    border-top: 8px solid brown;
+    text-align: center;
+    background-size: cover;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+aside>ul > li {
+    list-style-type: none;
+}
+ul>li{
+    list-style-type: square;
+}
+footer p{
+    font-size: 14px;
+}
+aside{
+    border-top: 3px solid olive;
+    border-bottom: 3px solid olive;
+    padding: 50px 0;
+    margin: 30px;
+}
+/* styling hyperlink */
+a:link, .nav-link{
+    background-color:rgb(189, 176, 201);
+    text-decoration: underline orange;
+    margin: 3px;
+    padding: 10px;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline rgb(226, 43, 43);
+}
+a:active{
+    background-color: aliceblue;
+    font-style: italic;
+}
+footer p{
+    color: brown ;
+}
+.post-header{
+    margin: 20px;
+}
+ul,ol{
+    margin-left:50PX ;
+    margin-bottom:30PX ;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.post-header img{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto 0 auto;
+    object-fit: cover;
+}
+button{
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom:50px;
+    right:50px;
+   
+}
+nav{
+    text-align: center;
+}
