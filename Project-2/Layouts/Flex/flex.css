@@ -1,0 +1,31 @@
+
+.container{
+	background-color: grey;
+    height: 425px;
+    width: auto;
+	font-size: 30px;
+	margin: 30px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+    
+	
+}
+.flex1{
+	background-color: red;
+	align-self:flex-start;
+    
+}
+.flex2{
+	background-color: green;
+	/* align-self:flex-start; */
+}
+.flex3{
+	background-color: blue;
+	
+}
+.flex4{
+	background-color: cyan;
+	
+	 /* order: -1  */
+}

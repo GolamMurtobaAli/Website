@@ -1,0 +1,119 @@
+ /* Reset and Basic Styling */
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1,h2{
+    color: #d41010;
+    margin-bottom: 30px;
+}
+
+/* Basic Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+    border: 3px solid  #db3487;
+}
+.Flex-container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+    border: 2px solid #d41010;
+    align-items: stretch;
+}
+
+.grid-item {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+/*
+/* Responsive Grid*/
+.responsive-grid {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px; */
+}
+
+/* Grid Areas Layout */
+.grid-areas {
+    /* display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    gap: 15px;
+    height: 400px; */
+}
+
+.grid-header {
+    /* grid-area: header;
+    background-color: #e74c3c; */
+}
+
+.grid-sidebar {
+    /* grid-area: sidebar;
+    background-color: #2ecc71; */
+}
+
+.grid-main {
+    /* grid-area: main;
+    background-color: #9b59b6; */
+}
+
+.grid-footer {
+    /* grid-area: footer;
+    background-color: #f39c12; */
+}
+
+/* Grid Item Spanning */
+.span-grid {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; */
+}
+
+.span-item-1 {
+    /* grid-column: span 2;
+    background-color: #1abc9c; */
+}
+
+.span-item-2 {
+    /* grid-column: span 3;
+    background-color: #34495e; */
+}
+
+/* Nested Grid */
+.nested-grid {
+    /* display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px; */
+}
+
+.nested-grid-child {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; */
+}
+
+/* Utility Classes */
+.section-title {
+    /* margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px; */
+} 

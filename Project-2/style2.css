@@ -11,3 +11,6 @@ h2{
     text-transform: uppercase;
     font-style: italic;
 }
+.opening{
+    float: left;
+}
